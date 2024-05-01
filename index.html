@@ -1,13 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Real Estate Project</title>
+    <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <!-- nav bar start -->
+    <nav
+      class="bg-[#2B2B2B] text-white h-10 p-5 flex justify-between items-center"
+    >
+      <div class="text-[20px] font-bold">LOGO</div>
+      <div>
+        <img src="public/icon _menu_.png" alt="" />
+      </div>
+    </nav>
+    <!-- nav bar end -->
+
+    <main>
+      <!-- hero section start -->
+
+      <section class="bg-[#080808] text-white">
+        <!-- hero content start -->
+        <div class="flex flex-col pt-20 px-5 gap-2">
+          <h1 class="text-xl font-medium">We Provide<br />Architectual design<br />and Construction</h1>
+          <p class="text-[#C4C4C4] text-base">
+            More than 100 building and housing projects that we have built. The
+            building owner chose us over other contractors in Jakarta, because
+            our work is different
+          </p>
+          <button class="self-start text-base font-semibold bg-blue-500 py-1.5 px-3 mt-2">Discover Mode</button>
+
+        </div>
+        <!-- hero content end -->
+
+        <!-- hero img start -->
+        <div class="flex justify-end -mt-32">
+          <img src="public/hero_image.png" alt="">
+        </div>
+        <!-- hero img end -->
+      </section>
+
+      <!-- hero section end -->
+    </main>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
